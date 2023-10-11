@@ -1,0 +1,125 @@
+{
+	"questionList": 
+	[
+	 {
+	   "questionText": "Sphinx mengeluarkan atribut sihir elemen api dengan tingkat intensitas 1.78. Lawan dengan intensitas yang lebih tinggi!",
+	   "answerA": "1.56",
+	   "answerB": "1.078",
+	   "answerC": "0.200",
+	   "answerD": "1.35",
+	   "correctAnswer": 2
+	 },
+	 {
+	   "questionText": " Oh tidak! Sphinx berhasil mengeluarkan mantranya. isi notasi dengan benar supaya menggagalkan dan memutarbalikkan mantranya! Buat intensitas mantranya menjadi 0! 0.99 … 0",
+	   "answerA": "x",
+	   "answerB": "+",
+	   "answerC": "-",
+	   "answerD": ":",
+	   "correctAnswer": 1
+	 },
+	 {
+	   "questionText": "Sphinx sedang merapal mantra nya! Dia merapal angka 2, 5, 8, 11, dst, hitung dan gunakan formula tertentu agar mencapai suku angka ke-100 supaya kamu bisa menggagalkannya!",
+	   "answerA": "100",
+	   "answerB": "299",
+	   "answerC": "340",
+	   "answerD": "200",
+	   "correctAnswer": 2
+	 },
+	 {
+	   "questionText": "Wah! Sphinx berusaha untuk mengeluarkan mantra Api Kubus! Pecahkan volumenya supaya kamu bisa mencounternya! (Sisinya bernilai 5)!",
+	   "answerA": "125",
+	   "answerB": "25",
+	   "answerC": "625",
+	   "answerD": "1025",
+	   "correctAnswer": 1
+	 },
+	 {
+	   "questionText": "Aduh Sphinx merapal mantra yang panjang, apa gagasan utamanya? Gunakan gagasan utamanya untuk menyerang balik! Berikut mantranya “Dalam kota ajaib Magica, setiap warga memiliki bakat sihir yang unik. Namun, kekuatan sihir tidak selalu membawa kebahagiaan, dan protagonis cerita ini harus menemukan cara untuk mengatasi tantangan besar yang menghadapinya”!",
+	   "answerA": "Sihir selalu membawa kebahagiaan bagi yang menguasainya",
+	   "answerB": "Sihir tidak pasti membawa kebahagiaan bagi yang menguasainya, dan setiap sihir berbeda-beda",
+	   "answerC": "Sihir bisa dikuasai untuk orang-orang tertentu saja",
+	   "answerD": "Waduh apa ya",
+	   "correctAnswer": 2
+	 },
+	 {
+	   "questionText": "Oh oh! Sphinx berkata “Dasar kamu kepala batu!”. Temukan maknanya supaya kamu bisa merapal balik mantra dan menyerangnya!",
+	   "answerA": "Baik hati",
+	   "answerB": "Cerdas",
+	   "answerC": "Kepalanya keras",
+	   "answerD": "Keras kepala",
+	   "correctAnswer": 4
+	 },
+	 {
+	   "questionText": "Sphinx lelah merapal mantra, kali ini dia dengan senang hati menggunakan teka-teki, coba pecahkan dan jawab teka-tekinya supaya kamu bisa melewati Sphinx! “Aku mempermainkan kata seolah itu terjadi dengan dramatis dan dilebih-lebihkan, namun nyatanya tidak seperti itu, apakah yang dimaksud?”.",
+	   "answerA": "Metafora",
+	   "answerB": "Hiperbola",
+	   "answerC": "Retors",
+	   "answerD": "Eufimisme",
+	   "correctAnswer": 2
+	 },
+	 {
+	   "questionText": "Sphinx kebingungan dalam merapal mantranya. ia bingung kata apa yang harus dimasukkan. Coba dahului dia dalam mencari kata yang pas! “Aku menemukan api sepanas neraka, … tidak tahu bagaimana memakainya”",
+	   "answerA": "tapi",
+	   "answerB": "dan",
+	   "answerC": "juga",
+	   "answerD": "Waduh apa ya",
+	   "correctAnswer": 1
+	 },
+	 {
+	   "questionText": " “Sphinx yang agung melakukan rapalan mantranya”. Terdapat struktur kalimat dalam formula tersebut, pecahkan dan hancurkan mantranya!",
+	   "answerA": "S-P-O",
+	   "answerB": "S-K-P",
+	   "answerC": "S-K-O-P",
+	   "answerD": "O-S-P",
+	   "correctAnswer": 1
+	 },
+	 {
+	   "questionText": "O-P-S-K adalah formula untuk mantra Sphinx berikutnya. Coba cari mantra yang tepat!",
+	   "answerA": "Mantra itu sedang dirapalkan Sphinx dalam lima menit belakangan",
+	   "answerB": "Sphinx merapalkan mantra terus menerus",
+	   "answerC": "Sphinx tidak tahu apa itu mantra",
+	   "answerD": "Aduh Sphinx kebingungan untuk merapal mantranya",
+	   "correctAnswer": 1
+	 },
+	 {
+	   "questionText": "Theodore merapalkan mantra menggunakan kata dan kalimat hewan! Dia menyebut Ikan Gabus di mantranya. Temukan kingdom dari Ikan Gabus supaya mantranya bisa kamu kacaukan!",
+	   "answerA": "Melanotaenia",
+	   "answerB": "Pisces",
+	   "answerC": "Animalia",
+	   "answerD": "Phylum",
+	   "correctAnswer": 3
+	 },
+	 {
+	   "questionText": "Waduh! Theodore merapalkan mantra “I went to Alchemy … and now it’s time to burn you down!”. Isi bagian kosong supaya kamu bisa merapal mantranya terlebih dahulu!",
+	   "answerA": "last night",
+	   "answerB": "tomorrow",
+	   "answerC": "now",
+	   "answerD": "today",
+	   "correctAnswer": 1
+	 },
+	 {
+	   "questionText": "Theodore merapalkan mantra jebakan, kamu harus menjawab dengan tepat supaya mantranya bisa berbalik “Santi and Mira … my disciples”",
+	   "answerA": "was",
+	   "answerB": "is ",
+	   "answerC": "are",
+	   "answerD": "were",
+	   "correctAnswer": 4
+	 },
+	 {
+	   "questionText": "Theodore lagi-lagi merapalkan mantra jebakan, namun kali ini kamu diharuskan menguraikan maksud dari mantranya! “Mira was born in 2002, and now is 2023”!",
+	   "answerA": "Mira age is 21",
+	   "answerB": "Mira age is 99",
+	   "answerC": "I don't know",
+	   "answerD": "Mira born yesterday",
+	   "correctAnswer": 1
+	 },
+	 {
+	   "questionText": "Wah Theodore merapal mantranya lagi! Kali ini mantranya berupa teka-teki “Which animal is known for its black and white stripes?",
+	   "answerA": "Relawan",
+	   "answerB": "Zebra",
+	   "answerC": "Kucing",
+	   "answerD": "Kukang",
+	   "correctAnswer": 2
+	 }
+	]
+}
