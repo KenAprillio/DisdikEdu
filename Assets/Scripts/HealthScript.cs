@@ -22,5 +22,9 @@ public class HealthScript : MonoBehaviour
                 hearts[i].sprite = emptyHeart;
             }
         }
+        if (health <= 0)
+        {
+            UI_InGameController.Instance.ShowLostPanel();
+        }
     }
 }

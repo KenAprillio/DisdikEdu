@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - QuestionManager
+  - Lightning
   layers:
   - Default
   - TransparentFX
@@ -40,6 +41,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Interface
+    uniqueID: 2522541819
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 3892819563
+    locked: 0
+  - name: FG
+    uniqueID: 1642020741
+    locked: 0
+  - name: MG
+    uniqueID: 3949814697
     locked: 0

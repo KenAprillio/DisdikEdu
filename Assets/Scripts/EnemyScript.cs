@@ -44,5 +44,6 @@ public class EnemyScript : MonoBehaviour
     {
         questionManager.animator.SetTrigger("nextEnemy");
         Destroy(gameObject);
+        UI_InGameController.Instance.ShowWinPanel();
     }
 }

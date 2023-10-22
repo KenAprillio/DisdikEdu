@@ -120,6 +120,126 @@
 	   "answerC": "Kucing",
 	   "answerD": "Kukang",
 	   "correctAnswer": 2
-	 }
+	 },
+{
+  "questionText": "Oh wow, kali ini teka teki sejarah, Theodore merapalkan mantra \"Dahulu kala, pada tanggal .... Oktober para pemuda mengikrarkan sumpah pemuda\" isi bagian mantra yang kosong supaya Theodore terkena mana overload",
+  "answerA": 29,
+  "answerB": 30,
+  "answerC": 27,
+  "answerD": 28,
+  "correctAnswer": 4
+ },
+ {
+  "questionText": "Theodore kali ini mencoba mantra lain! \"Tanah yang berada ditepian sungai sangatlah subur!\" Apa yang dimaksud Theodore? Pecahkan mantra tersebut supaya mantranya berbalik!",
+  "answerA": "Aluvial",
+  "answerB": "Vulkanik",
+  "answerC": "Genting",
+  "answerD": "Lempung",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": "Theodore merupakan seorang \"Sir\" status itu ia peroleh dari Kerajaan Magic, status sosial apakah itu?",
+  "answerA": "Assigned",
+  "answerB": "Ascribed",
+  "answerC": "Achieved ",
+  "answerD": "Alligned",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": "Theodore menggunakan rapalan teka-teki, pecahkan supaya mantranya gagal \"Aku bernafas, bertumbuh dan berkembang, berkembang biak, dan beradaptasi, apakah aku?\"",
+  "answerA": "Mahluk hidup",
+  "answerB": "Benda padat",
+  "answerC": "Plasma nutfah",
+  "answerD": "Hukum Fisika",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": "Theodore menggunakan rapalan terakhirnya! Pecahkan rumus fisika ini untuk menggagalkannya! \"Meteor yang dijatuhkan memiliki massa 400kg dengan percepatan gravitasi 10 m\/s, terimalah gaya seberat....\"",
+  "answerA": "40 N",
+  "answerB": "400 N",
+  "answerC": "40.000 N",
+  "answerD": "4.000 N",
+  "correctAnswer": 4
+ },
+ {
+  "questionText": "Tiffany mengeluarkan mantra apinya, dalam tengah-tengah mantranya api yang ia panggil berubah warnanya, kenapa bisa terjadi?",
+  "answerA": "Tiffany menambahkan unsur baru ke api",
+  "answerB": "Bertambah suhunya",
+  "answerC": "Api tersebut membesar",
+  "answerD": "Api tersebut membakar oksigen",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": "Wah! Tiffany menggunakan air untuk menjadi es, mantra yang luar biasa terkait fase materi, apa yang terjadi?",
+  "answerA": "Suhu air meningkat",
+  "answerB": "Air berubah menjadi gas",
+  "answerC": "Air membeku karena suhu air menyentuh 0 derajat",
+  "answerD": "Air memuai dan menjadi es",
+  "correctAnswer": 3
+ },
+ {
+  "questionText": "Tiffany menggunakan mantra majas! Dia merapal \"Bapak Proklamator mengacu kepada Ir. Soekarno\" jenis majas apa yang digunakan?",
+  "answerA": "Hiperbola ",
+  "answerB": "Retorik",
+  "answerC": "Antonomasia",
+  "answerD": "Litotes",
+  "correctAnswer": 3
+ },
+ {
+  "questionText": "Uh oh! Tiffany menggunakan rapalan mantra tingkat tinggi, pecahkan formula ini \"24x15+24x85\" ",
+  "answerA": 2045,
+  "answerB": 2050,
+  "answerC": 2400,
+  "answerD": 24000,
+  "correctAnswer": 3
+ },
+ {
+  "questionText": "Huh! Tiffany menggunakan mantra baru tanpa formula, coba analisis formula mana yang hasilnya sesuai dengan mantranya! \"400.000\"",
+  "answerA": "4 x 100^2 ",
+  "answerB": "4 x 10^5 ",
+  "answerC": "4 x 100^5 ",
+  "answerD": "4 x 1000^5 ",
+  "correctAnswer": 2
+ },
+ {
+  "questionText": "Tiffany menggunakan mantra atom! Kamu perlu mengetahui inti dari atom untuk menangkalnya! ",
+  "answerA": "Elektron",
+  "answerB": "Proton",
+  "answerC": "Subathon",
+  "answerD": "Nukleus",
+  "correctAnswer": 4
+ },
+ {
+  "questionText": "Tiffany mencoba menulis puisi dengan mantra sihir. Apa yang dimaksud dengan \"metafora\" dalam puisi?",
+  "answerA": "Penggunaan kata-kata yang cantik",
+  "answerB": "Penggunaan kata yang susah",
+  "answerC": "Penggunaan kata yang sudah jelas artinya",
+  "answerD": "Penggunaan kata-kata kiasan untuk perbandingan",
+  "correctAnswer": 4
+ },
+ {
+  "questionText": "Tidak! Tiffany merapal mantra berbentuk tabung, lawan dengan tabung serupa supaya menang, tabung itu memiliki spesifikasi \"Jari-jari 14, tinggi 25\"",
+  "answerA": "110cm^3",
+  "answerB": "1100 cm^3",
+  "answerC": "1000 cm^3",
+  "answerD": "10.000cm^3",
+  "correctAnswer": 2
+ },
+ {
+  "questionText": "Kekuatan Tiffany bertambah 10x lipat karena adanya gerhana! Apa yang menyebabkan gerhana?",
+  "answerA": "Matahari mengalami siklusnya",
+  "answerB": "Matahari terbenam",
+  "answerC": "Bulan menutupi matahari",
+  "answerD": "Matahari menutupi bulan",
+  "correctAnswer": 3
+ },
+ {
+  "questionText": "Hahahahah Tiffany gagal merapal mantranya karena salah mengeja kata yang benar, kata itu adalah \"apotik\" kata mana yang benar?",
+  "answerA": "apoteek",
+  "answerB": "apotiik",
+  "answerC": "apotek",
+  "answerD": "hapotik",
+  "correctAnswer": 3
+ }
 	]
 }
