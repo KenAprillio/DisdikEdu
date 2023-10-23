@@ -56,11 +56,13 @@ public class AnswerScript : MonoBehaviour
     {
         if (isCorrect == 0)
         {
-            endObject = GameObject.FindGameObjectWithTag("Enemy");
+            endObject = GameObject.FindGameObjectWithTag("Staff");
         } else
         {
             endObject = GameObject.FindGameObjectWithTag("Player");
         }
+        startObject = gameObject;
+
         float distance = Vector3.Distance(startObject.transform.position, endObject.transform.position);
 
 
@@ -70,6 +72,29 @@ public class AnswerScript : MonoBehaviour
         Vector3 rotationDirection = (endObject.transform.position - startObject.transform.position);
 
         GameObject newLightningBolt = Instantiate(lightningBolt, middlePoint, Quaternion.identity);
+        newLightningBolt.transform.up = rotationDirection;
+
+        if (isCorrect == 0)
+        {
+            SpawnChainLightningBoltToEnemy();
+        }
+    }
+
+    void SpawnChainLightningBoltToEnemy()
+    {
+        startObject = GameObject.FindGameObjectWithTag("Staff");
+        endObject = GameObject.FindGameObjectWithTag("Enemy");
+
+        float distance = Vector3.Distance(startObject.transform.position, endObject.transform.position);
+
+
+        lightningBolt.transform.localScale = new Vector3(InitialScale.x, distance);
+
+        Vector3 middlePoint = (startObject.transform.position + endObject.transform.position) / 2f;
+        Vector3 rotationDirection = (endObject.transform.position - startObject.transform.position);
+
+        GameObject newLightningBolt = Instantiate(lightningBolt, middlePoint, Quaternion.identity);
+
         newLightningBolt.transform.up = rotationDirection;
     }
 }

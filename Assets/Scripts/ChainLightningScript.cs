@@ -5,65 +5,41 @@ using UnityEngine;
 
 public class ChainLightningScript : MonoBehaviour
 {
-    [TagSelector]
-    public string TagFilter = "";
-    public float damage;
+    /*[TagSelector]
+    public string TagFilter = "";*/
 
-    public GameObject chainLighningEffect;
+    private GameObject lightningBolt;
+    private Vector2 InitialScale;
 
-    public GameObject beenStruck;
-
-    public int amountToChain;
 
     private GameObject startObject;
     public GameObject endObject;
 
-    public ParticleSystem parti;
-
-    private int singleSpawn;
-
     // Start is called before the first frame update
     void Start()
     {
-        parti = GetComponent<ParticleSystem>();
-        startObject = gameObject;
-        singleSpawn = 1;
+        lightningBolt = gameObject;
+        InitialScale = lightningBolt.transform.localScale;
 
-        LightningToEnemy();
+
+        SpawnLightningBoltToEnemy();
     }
 
-    public void LightningToEnemy()
+    void SpawnLightningBoltToEnemy()
     {
-        if (singleSpawn != 0)
-        {
-            endObject = GameObject.FindGameObjectWithTag("Enemy");
+        startObject = GameObject.FindGameObjectWithTag("Staff");
+        endObject = GameObject.FindGameObjectWithTag("Enemy");
 
-            if (!endObject.GetComponentInChildren<EnemyStruct>())
-            {
-                Instantiate(chainLighningEffect, gameObject.transform.position, Quaternion.identity);
-
-                Instantiate(beenStruck, endObject.transform);
-
-                endObject.GetComponent<EnemyScript>().TakeHit(damage);
-
-                singleSpawn--;
-                parti.Play();
-
-                var emitParams = new ParticleSystem.EmitParams();
-                emitParams.position = startObject.transform.position;
-
-                parti.Emit(emitParams, 1);
-
-                emitParams.position = endObject.transform.position;
-                parti.Emit(emitParams, 1);
-
-                emitParams.position = (startObject.transform.position + endObject.transform.position) / 2;
-                parti.Emit(emitParams, 1);
+        float distance = Vector3.Distance(startObject.transform.position, endObject.transform.position);
 
 
-                Destroy(gameObject, 1f);
-            }
-        }
+        lightningBolt.transform.localScale = new Vector3(InitialScale.x, distance);
+
+        Vector3 middlePoint = (startObject.transform.position + endObject.transform.position) / 2f;
+        Vector3 rotationDirection = (endObject.transform.position - startObject.transform.position);
+
+        lightningBolt.transform.position = middlePoint;
+        lightningBolt.transform.up = rotationDirection;
     }
 
 

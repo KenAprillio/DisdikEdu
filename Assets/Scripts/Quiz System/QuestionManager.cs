@@ -40,7 +40,7 @@ public class QuestionManager : MonoBehaviour
     public HealthScript healthScript;
     public GameObject[] options;
 
-    public int currentQuestion;
+    public int currentQuestion = 0;
 
     GameObject player;
     public Animator animator;
@@ -134,7 +134,10 @@ public class QuestionManager : MonoBehaviour
 
     public void generateQuestion()
     {
-        currentQuestion = Random.Range(0, questionDatabase.questionList.Count);
+        if (currentQuestion != 0)
+        {
+            currentQuestion++;
+        }
 
         questionField.text = questionDatabase.questionList[currentQuestion].questionText;
         SetAnswers();
