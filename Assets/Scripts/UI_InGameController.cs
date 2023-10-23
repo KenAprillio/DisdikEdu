@@ -10,6 +10,8 @@ public class UI_InGameController : MonoBehaviour
     [Header("InGame Panel")]
     public GameObject WinPanel;
     public GameObject LostPanel;
+
+    int enemyDead = 0;
     public static UI_InGameController Instance { get; private set; }
     private void Awake()
     {
@@ -22,6 +24,16 @@ public class UI_InGameController : MonoBehaviour
         else
         {
             Instance = this;
+        }
+    }
+
+    public void AddDefeatedEnemies()
+    {
+        enemyDead++;
+
+        if (enemyDead >= 3)
+        {
+            ShowWinPanel();
         }
     }
 

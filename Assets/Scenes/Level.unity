@@ -975,7 +975,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctAnswer: 0
-  questionManager: {fileID: 2007704512}
   lightningBolt: {fileID: 6063186738645077475, guid: aa7d12fc21786b847bc6897176147384, type: 3}
   lightningBoltToPlayer: {fileID: 0}
 --- !u!95 &415037310
@@ -3778,7 +3777,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctAnswer: 0
-  questionManager: {fileID: 2007704512}
   lightningBolt: {fileID: 6063186738645077475, guid: aa7d12fc21786b847bc6897176147384, type: 3}
   lightningBoltToPlayer: {fileID: 0}
 --- !u!95 &1580217488
@@ -4139,7 +4137,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctAnswer: 0
-  questionManager: {fileID: 2007704512}
   lightningBolt: {fileID: 6063186738645077475, guid: aa7d12fc21786b847bc6897176147384, type: 3}
   lightningBoltToPlayer: {fileID: 0}
 --- !u!95 &1638391367
@@ -4536,7 +4533,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctAnswer: 0
-  questionManager: {fileID: 2007704512}
   lightningBolt: {fileID: 6063186738645077475, guid: aa7d12fc21786b847bc6897176147384, type: 3}
   lightningBoltToPlayer: {fileID: 0}
 --- !u!95 &1792113113
@@ -4785,7 +4781,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4af82cbe36d7d8d4387e39394fc6b938, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionManager: {fileID: 2007704512}
+  animator: {fileID: 0}
+  damage: 10
 --- !u!212 &1946035589
 SpriteRenderer:
   m_ObjectHideFlags: 0

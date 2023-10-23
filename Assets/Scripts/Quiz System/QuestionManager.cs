@@ -7,6 +7,7 @@ using Random = UnityEngine.Random;
 
 public class QuestionManager : MonoBehaviour
 {
+
     // READ CSV DATA
     public TextAsset textJSON;
 
@@ -52,6 +53,22 @@ public class QuestionManager : MonoBehaviour
 
     public BackgroundScript backgroundScript;
 
+    public static QuestionManager Instance { get; private set; }
+
+
+    private void Awake()
+    {
+        // If there is an instance, and it's not me, delete myself.
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -62,8 +79,6 @@ public class QuestionManager : MonoBehaviour
         //generateQuestion();
         animator = GetComponent<Animator>();
     }
-
-    
 
     public void Correct()
     {
@@ -111,17 +126,6 @@ public class QuestionManager : MonoBehaviour
                 optionD.GetComponent<AnswerScript>().correctAnswer = true;
                 break;
         }
-
-        /*for (int i = 0; i < options.Length; i++)
-        {
-            options[i].GetComponent<AnswerScript>().correctAnswer = false;
-            options[i].transform.GetChild(0).GetComponent<TMP_Text>().text = questionDatabase.questionList[currentQuestion].questionText;
-
-            if (questionDatabase.questionList[currentQuestion].correctAnswer == i+1)
-            {
-                options[i].GetComponent<AnswerScript>().correctAnswer = false;
-            }
-        }*/
     }
 
     void EnemySpawn()
@@ -132,19 +136,19 @@ public class QuestionManager : MonoBehaviour
         newEnemy.transform.parent = GameObject.Find("Frame").transform;
     }
 
+    // METHOD TO GENERATE NEXT QUESTION
     public void generateQuestion()
     {
-        if (currentQuestion != 0)
-        {
-            currentQuestion++;
-        }
-
+        // SETS THE QUESTION ON THE QUESTION BOX BASED ON THE ARRAY JSON
         questionField.text = questionDatabase.questionList[currentQuestion].questionText;
         SetAnswers();
 
+        // SET THE ANSWER BUTTONS INTERACTABLE
         foreach (GameObject answers in options)
         {
             answers.GetComponent<Button>().interactable = true;
         }
+
+        currentQuestion++;
     }
 }

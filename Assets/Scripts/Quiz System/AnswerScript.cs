@@ -3,7 +3,7 @@ using UnityEngine;
 public class AnswerScript : MonoBehaviour
 {
     public bool correctAnswer;
-    public QuestionManager questionManager;
+    //public QuestionManager questionManager;
     Animator ani;
 
     GameObject startObject;
@@ -45,7 +45,7 @@ public class AnswerScript : MonoBehaviour
         else
         {
             Debug.Log("False Answer");
-            questionManager.Incorrect();
+            QuestionManager.Instance.Incorrect();
             player.Hurt();
             ani.SetTrigger("False");
 

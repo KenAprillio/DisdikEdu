@@ -7,7 +7,7 @@ public class EnemyScript : MonoBehaviour
 
     public EnemyHealthbar healthbar;
     Animator animator;
-    QuestionManager questionManager;
+    //QuestionManager questionManager;
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +16,7 @@ public class EnemyScript : MonoBehaviour
         healthbar.SetHealth(healthpoints, maxHealthpoints);
 
         animator = GetComponent<Animator>();
-        questionManager = GameObject.FindGameObjectWithTag("QuestionManager").GetComponent<QuestionManager>();
+        
     }
 
     public void TakeHit(float damage)
@@ -28,22 +28,24 @@ public class EnemyScript : MonoBehaviour
         if (healthpoints <= 0)
         {
             animator.SetTrigger("isDead");
+
         }
         else
         {
-            questionManager.Correct();
+            QuestionManager.Instance.Correct();
         }
     }
 
     public void EnemyAppear()
     {
-        questionManager.generateQuestion();
+        QuestionManager.Instance.generateQuestion();
+        Debug.Log("Generate Thy Questions!");
     }
 
     public void EnemyDead()
     {
-        questionManager.animator.SetTrigger("nextEnemy");
+        QuestionManager.Instance.animator.SetTrigger("nextEnemy");
         Destroy(gameObject);
-        UI_InGameController.Instance.ShowWinPanel();
+        UI_InGameController.Instance.AddDefeatedEnemies();
     }
 }

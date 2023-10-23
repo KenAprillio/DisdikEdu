@@ -3,8 +3,9 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     [SerializeField]
-    QuestionManager questionManager;
+    //QuestionManager questionManager;
     Animator animator;
+    public float damage;
 
     private void Start()
     {
@@ -15,7 +16,7 @@ public class PlayerScript : MonoBehaviour
     {
         animator.SetTrigger("isRight");
         EnemyScript enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyScript>();
-        enemy.TakeHit(2);
+        enemy.TakeHit(damage);
     }
 
     public void Hurt()
@@ -30,6 +31,6 @@ public class PlayerScript : MonoBehaviour
 
     void NextQuestion()
     {
-        questionManager.Correct();
+        QuestionManager.Instance.Correct();
     }
 }
