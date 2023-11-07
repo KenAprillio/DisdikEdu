@@ -48,7 +48,7 @@ public class QuestionManager : MonoBehaviour
 
     public TMP_Text questionField;
 
-    public GameObject enemyPrefab;
+    public GameObject[] enemyPrefab;
     public GameObject enemySpawn;
 
     public BackgroundScript backgroundScript;
@@ -132,7 +132,9 @@ public class QuestionManager : MonoBehaviour
     {
         backgroundScript.MoveBackground();
 
-        GameObject newEnemy = Instantiate(enemyPrefab, enemySpawn.transform.position, transform.transform.rotation);
+        int enemy = Random.Range(0, enemyPrefab.Length);
+        Debug.Log(enemy);
+        GameObject newEnemy = Instantiate(enemyPrefab[0], enemySpawn.transform.position, transform.transform.rotation);
         newEnemy.transform.parent = GameObject.Find("Frame").transform;
     }
 

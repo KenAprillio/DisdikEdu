@@ -36,6 +36,11 @@ public class EnemyScript : MonoBehaviour
         }
     }
 
+    public void EnemyAttack()
+    {
+        animator.SetTrigger("isAttack");
+    }
+
     public void EnemyAppear()
     {
         QuestionManager.Instance.generateQuestion();

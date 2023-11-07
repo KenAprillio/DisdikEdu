@@ -11,7 +11,6 @@ public class ChainLightningScript : MonoBehaviour
     private GameObject lightningBolt;
     private Vector2 InitialScale;
 
-
     private GameObject startObject;
     public GameObject endObject;
 

@@ -22,6 +22,8 @@ public class PlayerScript : MonoBehaviour
     public void Hurt()
     {
         animator.SetTrigger("isWrong");
+        EnemyScript enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyScript>();
+        enemy.EnemyAttack();
     }
 
     void Walk()
