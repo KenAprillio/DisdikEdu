@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UI_InGameController : MonoBehaviour
@@ -10,6 +12,8 @@ public class UI_InGameController : MonoBehaviour
     [Header("InGame Panel")]
     public GameObject WinPanel;
     public GameObject LostPanel;
+
+    [SerializeField] AudioMixer audioMixer;
 
     int enemyDead = 0;
     public static UI_InGameController Instance { get; private set; }
@@ -37,6 +41,25 @@ public class UI_InGameController : MonoBehaviour
         }
     }
 
+    public void PlayLevel()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 
     #region InGamePanel UI Script
 
@@ -58,6 +81,11 @@ public class UI_InGameController : MonoBehaviour
     public void HideLostPanel()
     {
        LostPanel.SetActive(false);
+    }
+
+    public void SetVolume(float volume)
+    {
+        audioMixer.SetFloat("mainVolume", volume);
     }
     #endregion
 

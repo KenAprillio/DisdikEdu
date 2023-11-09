@@ -1,0 +1,245 @@
+{
+	"questionList": 
+	[
+ {
+  "questionText": "Phytagoras  mengeluarkan atribut sihir elemen api dengan tingkat intensitas 1.78. Lawan dengan intensitas yang lebih tinggi!",
+  "answerA": "1.56",
+  "answerB": "1.078",
+  "answerC": "0.200",
+  "answerD": "1.35",
+  "correctAnswer": 2
+ },
+ {
+  "questionText": " Oh tidak! Phytagoras berhasil mengeluarkan mantranya. isi notasi dengan benar supaya menggagalkan dan memutarbalikkan mantranya! Buat intensitas mantranya menjadi 0! 0.99 … 0",
+  "answerA": "x",
+  "answerB": "+",
+  "answerC": "-",
+  "answerD": ":",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": "Phytagoras sedang merapal mantra nya! Dia merapal angka 2, 5, 8, 11, dst, hitung dan gunakan formula tertentu agar mencapai suku angka ke-100 supaya kamu bisa menggagalkannya!",
+  "answerA": "100",
+  "answerB": "299",
+  "answerC": "340",
+  "answerD": "200",
+  "correctAnswer": 2
+ },
+ {
+  "questionText": "Wah! Phytagoras berusaha untuk mengeluarkan mantra Api Kubus! Pecahkan volumenya supaya kamu bisa mencounternya! (Sisinya bernilai 5)!",
+  "answerA": "125",
+  "answerB": "25",
+  "answerC": "625",
+  "answerD": "1025",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": "Tidak! Phytagoras merapal mantra berbentuk tabung, lawan dengan tabung serupa supaya menang, tabung itu memiliki spesifikasi \"Jari-jari 14, tinggi 25\"",
+  "answerA": "110cm^3",
+  "answerB": "1100 cm^3",
+  "answerC": "1000 cm^3",
+  "answerD": "10.000cm^3",
+  "correctAnswer": 2
+ },
+ {
+  "questionText": "Waduh! Phytagoras  merapalkan mantra “I went to Alchemy … and now it’s time to burn you down!”. Isi bagian kosong supaya kamu bisa merapal mantranya terlebih dahulu!",
+  "answerA": "last night",
+  "answerB": "tomorrow",
+  "answerC": "now",
+  "answerD": "today",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": "Phytagoras merapalkan mantra jebakan, kamu harus menjawab dengan tepat supaya mantranya bisa berbalik “Santi and Mira … my disciples”",
+  "answerA": "was",
+  "answerB": "is ",
+  "answerC": "are",
+  "answerD": "were",
+  "correctAnswer": 4
+ },
+ {
+  "questionText": "Uh oh! Phytagoras  menggunakan rapalan mantra tingkat tinggi, pecahkan formula ini \"24x15+24x85\" ",
+  "answerA": 2045,
+  "answerB": 2050,
+  "answerC": 2400,
+  "answerD": 24000,
+  "correctAnswer": 3
+ },
+ {
+  "questionText": "Phytagoras  lagi-lagi merapalkan mantra jebakan, namun kali ini kamu diharuskan menguraikan maksud dari mantranya! “Mira was born in 2002, and now is 2023”!",
+  "answerA": "Mira age is 21",
+  "answerB": "Mira age is 99",
+  "answerC": "I don't know",
+  "answerD": "Mira born yesterday",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": "Wah Phytagoras  merapal mantranya lagi! Kali ini mantranya berupa teka-teki “Which animal is known for its black and white stripes?",
+  "answerA": "Relawan",
+  "answerB": "Zebra",
+  "answerC": "Kucing",
+  "answerD": "Kukang",
+  "correctAnswer": 2
+ },
+ {
+  "questionText": "Aduh Shakespeare  merapal mantra yang panjang, apa gagasan utamanya? Gunakan gagasan utamanya untuk menyerang balik! Berikut mantranya “Dalam kota ajaib Magica, setiap warga memiliki bakat sihir yang unik. Namun, kekuatan sihir tidak selalu membawa kebahagiaan, dan protagonis cerita ini harus menemukan cara untuk mengatasi tantangan besar yang menghadapinya”!",
+  "answerA": "Sihir selalu membawa kebahagiaan bagi yang menguasainya",
+  "answerB": "Sihir tidak pasti membawa kebahagiaan bagi yang menguasainya, dan setiap sihir berbeda-beda",
+  "answerC": "Sihir bisa dikuasai untuk orang-orang tertentu saja",
+  "answerD": "Sihir hanyalah alat yang dipakai untuk mendapatkan kesenangan",
+  "correctAnswer": 2
+ },
+ {
+  "questionText": "Oh oh! Shakespeare  berkata “Dasar kamu kepala batu!”. Temukan maknanya supaya kamu bisa merapal balik mantra dan menyerangnya!",
+  "answerA": "Baik hati",
+  "answerB": "Cerdas",
+  "answerC": "Kepalanya keras",
+  "answerD": "Keras kepala",
+  "correctAnswer": 4
+ },
+ {
+  "questionText": "Shakespeare  lelah merapal mantra, kali ini dia dengan senang hati menggunakan teka-teki, coba pecahkan dan jawab teka-tekinya supaya kamu bisa melewati Shakespeare ! “Aku mempermainkan kata seolah itu terjadi dengan dramatis dan dilebih-lebihkan, namun nyatanya tidak seperti itu, apakah yang dimaksud?”.",
+  "answerA": "Metafora",
+  "answerB": "Hiperbola",
+  "answerC": "Retors",
+  "answerD": "Eufimisme",
+  "correctAnswer": 2
+ },
+ {
+  "questionText": "Shakespeare  kebingungan dalam merapal mantranya. ia bingung kata apa yang harus dimasukkan. Coba dahului dia dalam mencari kata yang pas! “Aku menemukan api sepanas neraka, … tidak tahu bagaimana memakainya”",
+  "answerA": "tapi",
+  "answerB": "dan",
+  "answerC": "juga",
+  "answerD": "ketika",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": " “Shakespeare  yang agung melakukan rapalan mantranya”. Terdapat struktur kalimat dalam formula tersebut, pecahkan dan hancurkan mantranya!",
+  "answerA": "S-P-O",
+  "answerB": "S-K-P",
+  "answerC": "S-K-O-P",
+  "answerD": "O-S-P",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": "O-P-S-K adalah formula untuk mantra Shakespeare  berikutnya. Coba cari mantra yang tepat!",
+  "answerA": "Mantra itu sedang dirapalkan Shakespeare  dalam lima menit belakangan",
+  "answerB": "Shakespeare  merapalkan mantra terus menerus",
+  "answerC": "Shakespeare  tidak tahu apa itu mantra",
+  "answerD": "Aduh Shakespeare  kebingungan untuk merapal mantranya",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": "Shakespeare  mencoba menulis puisi dengan mantra sihir. Apa yang dimaksud dengan \"metafora\" dalam puisi?",
+  "answerA": "Penggunaan kata-kata yang cantik",
+  "answerB": "Penggunaan kata yang susah",
+  "answerC": "Penggunaan kata yang sudah jelas artinya",
+  "answerD": "Penggunaan kata-kata kiasan untuk perbandingan",
+  "correctAnswer": 4
+ },
+ {
+  "questionText": "Hahahahah Shakespeare  gagal merapal mantranya karena salah mengeja kata yang benar, kata itu adalah \"apotik\" kata mana yang benar?",
+  "answerA": "apoteek",
+  "answerB": "apotiik",
+  "answerC": "apotek",
+  "answerD": "hapotik",
+  "correctAnswer": 3
+ },
+ {
+  "questionText": "Shakespeare menggunakan mantra majas! Dia merapal \"Bapak Proklamator mengacu kepada Ir. Soekarno\" jenis majas apa yang digunakan?",
+  "answerA": "Hiperbola ",
+  "answerB": "Retorik",
+  "answerC": "Antonomasia",
+  "answerD": "Litotes",
+  "correctAnswer": 3
+ },
+ {
+  "questionText": "Lagi-lagi Shakespeare gagal merapal mantranya, dia salah mengeja kata yang benar, kata itu adalah \"antri\" kata mana yang baku dan sesuai EYD?",
+  "answerA": "antree",
+  "answerB": "antri",
+  "answerC": "antrii",
+  "answerD": "antre",
+  "correctAnswer": 4
+ },
+ {
+  "questionText": "Huh! Davinci menggunakan mantra baru tanpa formula, coba analisis formula mana yang hasilnya sesuai dengan mantranya! \"400.000\"",
+  "answerA": "4 x 100^2 ",
+  "answerB": "4 x 10^5 ",
+  "answerC": "4 x 100^5 ",
+  "answerD": "4 x 1000^5 ",
+  "correctAnswer": 2
+ },
+ {
+  "questionText": "Davinci merapalkan mantra menggunakan kata dan kalimat hewan! Dia menyebut Ikan Gabus di mantranya. Temukan kingdom dari Ikan Gabus supaya mantranya bisa kamu kacaukan!",
+  "answerA": "Melanotaenia",
+  "answerB": "Pisces",
+  "answerC": "Animalia",
+  "answerD": "Phylum",
+  "correctAnswer": 3
+ },
+ {
+  "questionText": "Davinci menggunakan rapalan teka-teki, pecahkan supaya mantranya gagal \"Aku bernafas, bertumbuh dan berkembang, berkembang biak, dan beradaptasi, apakah aku?\"",
+  "answerA": "Mahluk hidup",
+  "answerB": "Benda padat",
+  "answerC": "Plasma nutfah",
+  "answerD": "Hukum Fisika",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": "Wah! Davinci menggunakan air untuk menjadi es, mantra yang luar biasa terkait fase materi, apa yang terjadi?",
+  "answerA": "Suhu air meningkat",
+  "answerB": "Air berubah menjadi gas",
+  "answerC": "Air membeku karena suhu air menyentuh 0 derajat",
+  "answerD": "Air memuai dan menjadi es",
+  "correctAnswer": 3
+ },
+ {
+  "questionText": "Davinci mengeluarkan mantra apinya, dalam tengah-tengah mantranya api yang ia panggil berubah warnanya, kenapa bisa terjadi?",
+  "answerA": "Shakespeare  menambahkan unsur baru ke api",
+  "answerB": "Bertambah suhunya",
+  "answerC": "Api tersebut membesar",
+  "answerD": "Api tersebut membakar oksigen",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": "Oh wow, kali ini teka teki sejarah, Davinci merapalkan mantra \"Dahulu kala, pada tanggal .... Oktober para pemuda mengikrarkan sumpah pemuda\" isi bagian mantra yang kosong supaya Theodore terkena mana overload",
+  "answerA": 29,
+  "answerB": 30,
+  "answerC": 27,
+  "answerD": 28,
+  "correctAnswer": 4
+ },
+ {
+  "questionText": "Davinci kali ini mencoba mantra lain! \"Tanah yang berada ditepian sungai sangatlah subur!\" Apa yang dimaksud Theodore? Pecahkan mantra tersebut supaya mantranya berbalik!",
+  "answerA": "Aluvial",
+  "answerB": "Vulkanik",
+  "answerC": "Genting",
+  "answerD": "Lempung",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": "Davinci merupakan seorang \"Sir\" status itu ia peroleh dari Kerajaan Magic, status sosial apakah itu?",
+  "answerA": "Assigned",
+  "answerB": "Ascribed",
+  "answerC": "Achieved ",
+  "answerD": "Alligned",
+  "correctAnswer": 1
+ },
+ {
+  "questionText": "Davinci menggunakan mantra atom! Kamu perlu mengetahui inti dari atom untuk menangkalnya! ",
+  "answerA": "Elektron",
+  "answerB": "Proton",
+  "answerC": "Subathon",
+  "answerD": "Nukleus",
+  "correctAnswer": 4
+ },
+ {
+  "questionText": "Kekuatan Davinci bertambah 10x lipat karena adanya gerhana! Apa yang menyebabkan gerhana?",
+  "answerA": "Matahari mengalami siklusnya",
+  "answerB": "Matahari terbenam",
+  "answerC": "Bulan menutupi matahari",
+  "answerD": "Matahari menutupi bulan",
+  "correctAnswer": 3
+ }
+]
+}
