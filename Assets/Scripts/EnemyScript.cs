@@ -28,6 +28,7 @@ public class EnemyScript : MonoBehaviour
         if (healthpoints <= 0)
         {
             animator.SetTrigger("isDead");
+            QuestionManager.Instance.questionDatabase.questionList.RemoveAt(QuestionManager.Instance.currentQuestion);
 
         }
         else

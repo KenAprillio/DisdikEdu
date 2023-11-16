@@ -88,6 +88,8 @@ public class QuestionManager : MonoBehaviour
         }
         questionDatabase.questionList.RemoveAt(currentQuestion);
         generateQuestion();
+        //currentQuestion++;
+
     }
 
     public void Incorrect()
@@ -151,6 +153,5 @@ public class QuestionManager : MonoBehaviour
             answers.GetComponent<Button>().interactable = true;
         }
 
-        currentQuestion++;
     }
 }
