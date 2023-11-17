@@ -130,9 +130,9 @@ public class QuestionManager : MonoBehaviour
         }
     }
 
-    void EnemySpawn()
+    public void EnemySpawn()
     {
-        backgroundScript.MoveBackground();
+        //backgroundScript.MoveBackground();
 
         int enemy = Random.Range(0, enemyPrefab.Length);
         Debug.Log(enemy);
@@ -154,4 +154,6 @@ public class QuestionManager : MonoBehaviour
         }
 
     }
+
+    
 }

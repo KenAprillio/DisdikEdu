@@ -5813,7 +5813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5781e1a7fc36f464f82c4893c848a004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smoothness: 5
+  duration: 2
   background: {fileID: 393946143}
 --- !u!4 &1742067483
 Transform:

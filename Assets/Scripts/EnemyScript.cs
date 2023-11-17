@@ -50,7 +50,10 @@ public class EnemyScript : MonoBehaviour
 
     public void EnemyDead()
     {
-        QuestionManager.Instance.animator.SetTrigger("nextEnemy");
+        //QuestionManager.Instance.animator.SetTrigger("nextEnemy");
+        QuestionManager.Instance.EnemySpawn();
+        QuestionManager.Instance.backgroundScript.MoveBackground();
+
         Destroy(gameObject);
         UI_InGameController.Instance.AddDefeatedEnemies();
     }
